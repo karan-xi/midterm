@@ -1,0 +1,78 @@
+/*  */
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    font: normal 16px Arial, sans-serif;
+}
+
+.structural {
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+h2 {
+    color: #666;
+    font-size: 20px;
+}
+
+main {
+    height: 70vh;
+}
+
+img {
+    border: 2px solid #000;
+    width: 90%;
+    height: 80%;
+}
+
+#figure1 {
+    background-color: #F0F0F0;
+    width: 45%;
+    height: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    float: left;
+}
+
+#figure2 {
+    background-color: #E0E0E0;
+    width: 45%;
+    height: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    float: right;
+}
+
+section {
+    clear: both;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 14px;
+    color: #888;
+    padding: 5px;
+}
+
+a {
+    color: #d32410;
+}
+
+a:hover {
+    color: #0099DD;
+}
+
+ul {
+    list-style: square;
+    line-height: 1.5;
+}
+
+header, footer {
+    background-color: #CCC;
+}
